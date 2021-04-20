@@ -1,19 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media (min-width: 460px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #000; 
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #000; 
 }
 .topnav {
     position: absolute;
     bottom: 100px;
     top: 20px;
+    flex-direction: row;  
+
 }
 .text{
     position: absolute;
@@ -57,4 +61,58 @@ animation: animate 20s linear infinite;
 
 .text {
     color: white;
+}
+
+label {
+    display: block;
+}
+#contactform {
+    justify-content: space-between;
+    margin: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+}
+
+textarea {
+    margin: 40px;
+    border-color:#000;
+}
+
+.submitbutton {
+    position: relative;
+    left:330px;
+    bottom: 30px;
+}
+
+.homeworkout{
+    flex-direction: column;
+    border: #000 solid;
+margin: 20px;
+justify-content: flex-start;
+}
+
+.powerlifting {
+    flex-direction: column;
+    border: #000 solid;
+margin: 20px;
+justify-content: center;
+}
+
+.ppl{
+    flex-direction: column;
+    border: #000 solid;
+margin: 20px;
+justify-content: flex-end;
+}
+
+a:link {
+    color: black
+}
+a:visited{
+    color: purple
+}
+a:hover {
+    color: red;
+    background-color: black
 }

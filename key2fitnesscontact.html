@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="key2fitness.css">
 </head>
-<body>
+<body style="background-color: white;">
     <div class="topnav">
         <a class="home" href="index.html">Home</a>
         <a class="workoutprograms" href="key2fitnessworkouts.html">Workout Programs</a>
         <a class="contact" href="key2fitnesscontact.html">Contact</a>
             </div>
     <form>
-        <div>
+        <div id="contactform">
         <label for="title"><input id="title" name="titlebutton" type="radio">Mr.</label>
         <label for="title"><input id="title" name="titlebutton" type="radio">Mrs.</label>
         <label for="title"><input id="title" name="titlebutton" type="radio">Ms.</label>
         <label for="title"><input id="title" name="titlebutton" type="radio">Dr.</label>
         <label for="title"><input id="title" name="titlebutton" type="radio">Don't Wish to Identify</label>
     </div>
-        <label><input type="text"> First Name</label>
-        <label><input type="text"> Last Name</label>
+
+   
+        <label>First Name:<input type="text"> </label>
+        <label>Last Name:<input type="text"> </label>
+        <label>Subject:<input type="text"></label>
+        <textarea cols="30" rows="20" autofocus placeholder="What are your fitness goals?"></textarea>
+      
+        <div class="submitbutton">  
+        <input type="submit">
+        </div>
     </form>
 
 </body>
