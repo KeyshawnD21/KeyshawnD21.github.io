@@ -4,20 +4,18 @@
         padding: 0;
         box-sizing: border-box;
     }
+}
     body {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: #000; 
-}
 }
 .topnav {
     position: absolute;
     bottom: 100px;
     top: 20px;
     flex-direction: row;  
-
 }
 .text{
     position: absolute;
@@ -25,6 +23,7 @@
     top: 50px;
 }
 .box {
+    margin-top: 200px;
 position: relative;
 width: 200px;
 height: 200px;
@@ -85,34 +84,37 @@ textarea {
     bottom: 30px;
 }
 
-.homeworkout{
-    flex-direction: column;
-    border: #000 solid;
-margin: 20px;
-justify-content: flex-start;
-}
-
-.powerlifting {
-    flex-direction: column;
-    border: #000 solid;
-margin: 20px;
-justify-content: center;
-}
-
-.ppl{
-    flex-direction: column;
-    border: #000 solid;
-margin: 20px;
-justify-content: flex-end;
-}
-
 a:link {
-    color: black
+    color:black;
+
 }
 a:visited{
     color: purple
 }
 a:hover {
-    color: red;
-    background-color: black
+    color:gold;
+
+}
+
+#h-1 {
+    margin: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+#h-2 {
+    margin: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+
+div topnav {
+    background-color: black;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: black;
 }
