@@ -1,4 +1,4 @@
-@media (min-width: 460px){
+@media (max-width: 481px){
     * {
         margin: 0;
         padding: 0;
@@ -21,10 +21,11 @@
     position: absolute;
     bottom: 90px;
     top: 50px;
+    width: 50%;
 }
 .box {
-    margin-top: 200px;
-position: relative;
+    margin-top: 500px;
+position: absolute;
 width: 200px;
 height: 200px;
 transform-style: preserve-3d;

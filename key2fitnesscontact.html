@@ -14,25 +14,17 @@
         <a class="contact" href="key2fitnesscontact.html">Contact</a>
             </div>
             
-    <form id=contact-form>
-        <div id="contactform">
-        <label for="title"><input id="title" name="titlebutton" type="radio">Mr.</label>
-        <label for="title"><input id="title" name="titlebutton" type="radio">Mrs.</label>
-        <label for="title"><input id="title" name="titlebutton" type="radio">Ms.</label>
-        <label for="title"><input id="title" name="titlebutton" type="radio">Dr.</label>
-        <label for="title"><input id="title" name="titlebutton" type="radio">Don't Wish to Identify</label>
-    </div>
-
-   
-        <label>First Name:<input type="text"> </label>
-        <label>Last Name:<input type="text"> </label>
-        <label>Subject:<input type="text"></label>
-        <textarea cols="30" rows="20" autofocus placeholder="What are your fitness goals?"></textarea>
-      
-        <div class="submitbutton">  
-        <input type="submit">
-        </div>
-    </form>
-
+            <div class="wrapper">
+                <form class="form">
+                  <div class="pageTitle title">Sign Up </div>
+                  <div class="secondaryTitle title">Please fill this form to sign up.</div>
+                  <input type="text" class="name formEntry" placeholder="Name" />
+                  <input type="email" class="email formEntry" placeholder="Email"/>
+                  <textarea class="message formEntry" placeholder="What are your fitness goals?"></textarea>
+                  <input type="checkbox" class="termsConditions" value="Term">
+                  <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                  <button style="background-color: #800080" class="submit formEntry" onclick="thanks()">Submit</button>
+                </form>
+              </div>
 </body>
 </html>
